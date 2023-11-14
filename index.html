@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="header">
-        <div id="logo" >Logo</div>
-        <div id="ad">Deliver to patna </div>
+        <div id="logo" ><img src="logo.png" id="logo"></div>
+        <div id="ad">
+            <img src="loc.png" width="10px">
+        </div>
         <div id="search">Search </div>
         <div id="lang">EN</div>
         <div id="account">Accounts & Lists</div>
@@ -17,19 +20,29 @@
         <div id="cart">CArt</div>
     </div>
     <div id="nav">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>All</div>
+        <div>Amazon miniTV</div>
+        <div>Sell</div>
+        <div>Best Sellers</div>
+        <div>Today's Deals</div>
+        <div>Mobiles</div>
+        <div>Customer Service</div>
+        <div>Electronics</div>
+        <div>New Releases</div>
+        <div>Prime</div>
+        <div>Home & Kitchen</div>
+        <div>Gift Ideas</div>
+        <div><img src="banner.jpg" alt=""></div>
     </div>
+
+
+    <div class="arrow"></div>
+    <div id="flow">
+        <img src="left.png" class="arrows" id="arrow1" onclick="left()">
+        <div id="poster"><img src="car2.jpg" width="100%"></div>
+        <img src="right.png" class="arrows" id="arrow2" onclick="right()">
+    </div>
+    <div class="arrow"></div>
+    
 </body>
 </html>

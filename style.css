@@ -10,9 +10,44 @@
     color:white;
     height:50px;
     padding:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #nav
 {
     height:39px;
     background-color: #232f3e;
+    display: grid;
+    grid-template-columns: 50px 120px 50px repeat(9,90px) 400px;
+    color: white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logo
+{
+    width:100px;
+}
+.loc_text
+{
+    position: relative;
+    bottom: px;
+    left:20px;
+}
+.arrows
+{
+    position:absolute;
+    width: 50px;
+    top:250px;
+    opacity:0.5;
+}
+#arrow1
+{
+    position: absolute;
+    left:15px;
+
+
+}
+#arrow2
+{
+    position:absolute;
+right:30px
 }
