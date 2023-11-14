@@ -51,3 +51,20 @@
     position:absolute;
 right:30px;
 }
+#ads
+{   position: relative;
+    bottom:250px;
+    display: grid;
+    grid-template-columns:repeat(4,350px);
+    align-content: center;
+    justify-content: center;
+}
+.box
+{
+    background-color: white;
+ 
+   height: 250px;
+margin:20px;
+padding: 20px;
+
+}
