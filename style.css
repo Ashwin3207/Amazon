@@ -2,14 +2,17 @@
     padding:0px;
     margin:0px;
 }
+body{
+background-color: #979695;
+}
 #header
 {
     display:grid;
-    grid-template-columns:128.73px 185.8px 537px 73.5px 131.53px 76.95px 84px;
+    grid-template-columns:128.73px 250px 620px 73.5px 170px 130px 80px;
     background-color: #0F1111;
     color:white;
     height:50px;
-    padding:10px;
+    padding:12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #nav
@@ -17,14 +20,18 @@
     height:39px;
     background-color: #232f3e;
     display: grid;
-    grid-template-columns: 50px 120px 50px repeat(9,90px) 400px;
+    grid-template-columns: 30px 120px 50px 90px 110px 70px 130px 90px 130px 70px 125px 80px 400px;
     color: white;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #logo
 {
     width:100px;
+}
+#llog{
+position: relative;
+top: 20px;
 }
 .loc_text
 {
@@ -63,8 +70,65 @@ right:30px;
 {
     background-color: white;
  
-   height: 250px;
+   height: 350px;
 margin:20px;
 padding: 20px;
 
+}
+.upper
+{
+    font-size:14px;
+    font-weight: 50;
+    position: relative;
+    
+}
+.lower
+{
+    font-weight: 800;
+    position: relative;
+    
+}
+#ct
+{
+ 
+    bottom: 38px;
+    left: 50px;
+}
+#search
+{
+    display: grid;
+    grid-template-columns: 50px 500px 60px;
+    height: 35px;
+   
+    
+}
+#s1
+{
+    color:gray;
+    background-color: gainsboro;
+    padding: 7px;
+
+    
+}
+#s2
+{
+    background-color: white;
+    
+}
+#s3
+{
+ background-color: rgb(239, 177, 63);
+ padding: 10px;
+
+}
+#s2 input
+{
+height: 35px;
+width:500px;
+
+}
+.navtext
+{
+    position: relative;
+    top:10px;
 }
