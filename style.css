@@ -1,0 +1,18 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#header
+{
+    display:grid;
+    grid-template-columns:128.73px 185.8px 537px 73.5px 131.53px 76.95px 84px;
+    background-color: #0F1111;
+    color:white;
+    height:50px;
+    padding:10px;
+}
+#nav
+{
+    height:39px;
+    background-color: #232f3e;
+}
