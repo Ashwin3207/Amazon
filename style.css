@@ -81,8 +81,9 @@ right:30px;
 #ads1
 {   
     display: flex;
-    /* display: grid;
-    grid-template-columns:repeat(4,350px); */
+    position: absolute;
+  
+    top:380px;
     align-content: center;
     justify-content: center;
     
@@ -263,4 +264,10 @@ hr
 #cart
 {
     display: flex;
+}
+#poster 
+{
+
+position: relative;
+z-index: -1;
 }
