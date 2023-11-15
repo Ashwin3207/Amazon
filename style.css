@@ -74,6 +74,7 @@ right:30px;
     grid-template-columns:repeat(4,350px);
     align-content: center;
     justify-content: center;
+    
 }
 .box
 {
@@ -186,7 +187,14 @@ color: gray;
 {
     background-color:#232f3e;
     height: 300px;
+    display: grid;
+    grid-template-columns:repeat(4,200px);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
 }
+
 #footer2
 {
     background-color:#232f3e;
@@ -199,6 +207,7 @@ color: gray;
 {
    position: relative;
    left: 47.4%;
+   
 }
 hr
 {
@@ -215,8 +224,22 @@ hr
     padding-top: 10px;
     color: gray;
     font-weight: 100;
+    
 }
 #footer4
 {   background-color: #131a22;
-    height: 100px;
+    height: 60px;
+    padding-top: 10px;
+}
+.points
+{
+    opacity: 0.8;
+    color: gray;
+}
+#footer4 p
+{
+    color:gray;
+    text-align: center;
+   
+
 }
