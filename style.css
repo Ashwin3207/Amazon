@@ -119,6 +119,7 @@ padding: 20px;
 {
  background-color: rgb(239, 177, 63);
  padding: 10px;
+ color: #232f3e;
 
 }
 #s2 input
@@ -131,4 +132,11 @@ width:500px;
 {
     position: relative;
     top:10px;
+}
+.box_text
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial;
 }
