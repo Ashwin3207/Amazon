@@ -9,13 +9,18 @@ background-color: gainsboro;
 }
 #header
 {
-    display:grid;
-    grid-template-columns:128.73px 250px 609px 73.5px 170px 130px 20px 40px;
+    display:flex;
+   
     background-color: #0F1111;
     color:white;
     height:50px;
     padding:12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header div{
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #header #search div
 {
@@ -28,11 +33,17 @@ background-color: gainsboro;
 {
     height:39px;
     background-color: #232f3e;
-    display: grid;
-    grid-template-columns: 30px 120px 50px 90px 110px 70px 130px 90px 130px 70px 125px 80px 400px;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 30px 120px 50px 90px 110px 70px 130px 90px 130px 70px 125px 80px 400px; */
     color: white;
     padding: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nav div
+{
+    margin-left:5px;
+    margin-right:5px;
 }
 #logo
 {
@@ -67,14 +78,18 @@ top: 20px;
     position:absolute;
 right:30px;
 }
-#ads
-{   position: relative;
-    bottom:250px;
-    display: grid;
-    grid-template-columns:repeat(4,350px);
+#ads1
+{   
+    display: flex;
+    /* display: grid;
+    grid-template-columns:repeat(4,350px); */
     align-content: center;
     justify-content: center;
     
+}
+#ads2
+{
+    display: flex;
 }
 .box
 {
@@ -121,20 +136,20 @@ padding: 20px;
     padding-top: 50px;
     border-bottom-left-radius: 2px;
     border-top-left-radius: 2px;
-  
+   width:50px;
     justify-items:center;
 
     
 }
 #s2
-{
+{   width:510px;
     background-color: white;
     
 }
 #s3
 {
  background-color: rgb(239, 177, 63);
-
+width: 43px;
  color: #232f3e;
  border-bottom-right-radius: 5px;
  border-top-right-radius: 5px;
@@ -242,4 +257,8 @@ hr
     text-align: center;
    
 
+}
+#cart
+{
+    display: flex;
 }
