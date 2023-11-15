@@ -90,12 +90,14 @@ padding: 20px;
     font-size:14px;
     font-weight: 50;
     position: relative;
+    top:5px;
     
 }
 .lower
 {
     font-weight: 800;
     position: relative;
+    top:5px;
     
 }
 #ct
@@ -110,6 +112,8 @@ padding: 20px;
     grid-template-columns: 50px 510px 43px;
     height: 35px;
     border: 4px ;
+    position: relative;
+    top: 8px;
  
    
     
