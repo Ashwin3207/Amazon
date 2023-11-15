@@ -10,7 +10,7 @@ background-color: gainsboro;
 #header
 {
     display:grid;
-    grid-template-columns:128.73px 250px 609px 73.5px 170px 130px 80px;
+    grid-template-columns:128.73px 250px 609px 73.5px 170px 130px 20px 40px;
     background-color: #0F1111;
     color:white;
     height:50px;
@@ -100,12 +100,7 @@ padding: 20px;
     top:5px;
     
 }
-#ct
-{
- 
-    bottom: 38px;
-    left: 50px;
-}
+
 #search
 {
     display: grid;
