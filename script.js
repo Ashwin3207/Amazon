@@ -33,7 +33,7 @@ function left()
     
 }
 function right()
-{   if(count<7)
+{  if(count<7)
     {count++;
     console.log("right");
     console.log(count);
@@ -46,3 +46,14 @@ else
 }
 
 }
+function aup()
+{
+    
+    count++;
+   upban();
+    if(count==7)
+    {count=0;
+
+    upban();}
+}
+setInterval(aup, 10000);
