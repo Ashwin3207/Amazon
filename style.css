@@ -47,7 +47,12 @@ background-color: gainsboro;
    padding-left:10px;
    
 }
+#nav>div:hover
+{
 
+ margin:5px solid white;
+
+}
 #nav
 {
     height:39px;
@@ -102,12 +107,14 @@ right:30px;
 #ads1
 {   
     display: flex;
+    
    
     
 }
 #ads2
 {   
     display: flex;
+    
    
    
 }
@@ -314,9 +321,13 @@ z-index: -1;
     padding-right:10px;
    padding-left:10px;
 }
-#nav:hover
+#car
 {
-
- margin:1px solid white;
-
+    position: absolute;
+}
+#pscar
+{
+   position: relative;
+    height: 400px;
+    width: 100%;
 }
