@@ -43,6 +43,8 @@ background-color: gainsboro;
    border-radius: 5px;
    padding-top:5px;
    padding-bottom:5px;
+   padding-right:10px;
+   padding-left:10px;
    
 }
 
@@ -306,4 +308,15 @@ z-index: -1;
 #header>#logo
 {
     padding:0px;
+}
+#header>div
+{
+    padding-right:10px;
+   padding-left:10px;
+}
+#nav:hover
+{
+
+ margin:1px solid white;
+
 }
