@@ -87,24 +87,24 @@ top: 20px;
 }
 .arrows
 {
-    position:absolute;
-    width: 50px;
-    top:250px;
     opacity:0.5;
     z-index: 1;
-    display: flex;
+    position:absolute;
+    width: 4.5rem;
+    top: 10rem;
+    
+    
 }
 #arrow1
 {
-    position: absolute;
-    left:15px;
-
+   
 
 }
 #arrow2
 {
-    position:relative;
-right:30px;
+    
+
+left: 95%;
 
 
 }
