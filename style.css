@@ -106,14 +106,14 @@ right:30px;
 }
 #ads1
 {   
-    display: flex;
+    display: flex!important;
     
    
     
 }
 #ads2
 {   
-    display: flex;
+    display: flex!important;
     
    
    
