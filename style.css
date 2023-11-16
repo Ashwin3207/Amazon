@@ -91,6 +91,8 @@ top: 20px;
     width: 50px;
     top:250px;
     opacity:0.5;
+    z-index: 1;
+    display: flex;
 }
 #arrow1
 {
@@ -103,6 +105,8 @@ top: 20px;
 {
     position:relative;
 right:30px;
+
+
 }
 #ads1
 {   
@@ -324,6 +328,7 @@ z-index: -1;
 #car
 {
     position: absolute;
+    
 }
 #pscar
 {
